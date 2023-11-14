@@ -65,10 +65,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp K_PLAY_PAUSE  &trans          &trans  &kp N7        &kp N8        &kp N9  &kp FSLH   &kp ASTRK
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp MINUS  &kp PLUS
-&trans      &trans        &trans        &trans        &trans            &trans          &trans  &kp N1        &kp N2        &kp N3  &kp EQUAL  &kp KP_ENTER
-                                        &to 0         &trans            &trans          &trans  &kp N0        &kp DOT
+&trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY    &trans          &trans  &kp N7        &kp N8        &kp N9  &kp FSLH   &kp ASTRK
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp MINUS  &kp PLUS
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &kp N1        &kp N2        &kp N3  &kp EQUAL  &kp KP_ENTER
+                                        &to 0         &trans        &trans          &trans  &kp N0        &kp DOT
             >;
         };
 
@@ -92,9 +92,9 @@
 
         layer_4 {
             bindings = <
-&kp LG(TAB)  &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &trans    &kp LC(LA(U))     &kp LC(LA(I))     &kp LC(LA(K))   &kp LC(LA(J))      &trans  &kp C_SLEEP
-&trans       &trans  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans    &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP))  &kp LC(LA(RIGHT))  &trans  &trans
-&trans       &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans    &trans            &trans            &trans          &trans             &trans  &trans
+&kp LG(TAB)  &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &trans    &kp LC(LA(U))     &kp LC(LA(I))     &kp LC(LA(K))      &kp LC(LA(J))      &trans  &kp K_POWER
+&trans       &trans  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans    &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP))     &kp LC(LA(RIGHT))  &trans  &trans
+&trans       &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans    &trans            &kp LG(GRAVE)     &kp LC(LA(ENTER))  &trans             &trans  &trans
                                  &to 0       &kp N0      &trans    &trans            &trans            &trans
             >;
         };
