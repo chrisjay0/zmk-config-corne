@@ -65,10 +65,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY    &trans          &trans  &kp N7        &kp N8        &kp N9  &kp FSLH   &kp ASTRK
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp MINUS  &kp PLUS
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &kp N1        &kp N2        &kp N3  &kp EQUAL  &kp KP_ENTER
-                                        &to 0         &trans        &trans          &trans  &kp N0        &kp DOT
+&trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &trans          &trans  &kp N7        &kp N8        &kp N9  &kp FSLH   &kp ASTRK
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp MINUS  &kp PLUS
+&trans      &trans        &trans        &trans        &trans            &trans          &trans  &kp N1        &kp N2        &kp N3  &kp EQUAL  &kp KP_ENTER
+                                        &to 0         &trans            &trans          &trans  &kp N0        &kp DOT
             >;
         };
 
